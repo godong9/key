@@ -1,0 +1,2 @@
+cd key
+npm start
