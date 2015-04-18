@@ -6,7 +6,7 @@
         $('.logo-key').show();
         document.getElementById("open_key_sound").play();
         setTimeout(function(){
-            location.href = "/find";
+            location.href = "/find.html";
         }, 2000);
     }
 
@@ -27,7 +27,7 @@
 
     function addJoinEvent() {
         $('#signup_btn').click(function() {
-            location.href = "/signup";
+            location.href = "/join.html";
         });
     }
 
