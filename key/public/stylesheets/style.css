@@ -1,8 +1,93 @@
+html, body {
+    height: 100%;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    min-width: 1000px;
+    margin: 0px;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+.main-container {
+    background-color: #000000;
+    opacity: 0.3;
+    min-height: 650px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.main-contents {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    margin: auto;
+    padding-top: 140px;
+}
+
+.main-logo {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.main-text {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.login-box {
+    width: 668px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.login-box-size {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.login-id {
+    background-image: url('/images/box_id.png');
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    text-indent: 50px;
+    vertical-align: top;
+}
+
+.login-pw {
+    background-image: url('/images/box_pw.png');
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    text-indent: 50px;
+    vertical-align: top;
+}
+
+.login-btn {
+    cursor: pointer;
+    background-image: url('/images/btn_login.png');
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    vertical-align: top;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.main-container {
+
 }
