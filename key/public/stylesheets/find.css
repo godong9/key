@@ -1,10 +1,41 @@
 #nav_container {
-    height: 100px;
+    height: 50px;
+    background-image: url('/images/nav_bar_bg.jpg');
+    background-size: cover;
+    border: none;
+}
+
+#team_container {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    height: 200px;
+    background-color: #ff0000;
+}
+
+.find-contents {
+    width: 100%;
+    position: absolute;
+    top: 250px;
 }
 
 .user-group {
     width: 850px;
+    height: 140px;
     margin: 0px auto;
+}
+
+.team-item {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 120px;
+    border: solid 1px #000000;
+    margin: 10px;
+}
+
+.padding-zero {
+    padding: 0px !important;
 }
 
 .user-item {
@@ -14,4 +45,9 @@
     height: 120px;
     border: solid 1px #000000;
     margin: 10px;
+}
+
+.nav-search {
+    position: absolute;
+    left: 40%;
 }

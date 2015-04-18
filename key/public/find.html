@@ -6,32 +6,118 @@
     <link rel="stylesheet" href="/stylesheets/find.css"/>
 </head>
 <body>
+
+<!-- 프로필 모달 -->
+<div id="profile_modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 id="join_modal_title" class="modal-title">Sign Up</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button id="join_modal_join_btn" type="button" class="modal-big-btn">SIGN UP</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <nav id="nav_container" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
+
+        <img width="265" height="50" src="images/nav_bar_search.png">
+        <img width="200" height="50" style="position: absolute; left: 50%; margin-left: -100px;" src="images/nav_bar_center.png">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="padding-zero" href="#"><img src="/images/nav_bar_profile.png"></a></li>
+            <li><a class="padding-zero" href="#"><img src="/images/nav_bar_logout.png"></a></li>
+            <li><a class="padding-zero" href="#"><img src="/images/nav_bar_menu.png"></a></li>
+        </ul>
     </div>
 </nav>
 
-<div class="main-contents">
+<div id="team_container" class="navbar-fixed-top">
     <div class="user-group">
-        <div class="user-item">
+        <div class="team-item droppable-item ui-widget-content">
             aaa
         </div>
-        <div class="user-item">
+        <div class="team-item droppable-item ui-widget-content">
             aaa
         </div>
-        <div class="user-item">
+        <div class="team-item droppable-item ui-widget-content">
             aaa
         </div>
-        <div class="user-item">
+        <div class="team-item droppable-item ui-widget-content">
             aaa
         </div>
-        <div class="user-item">
+        <div class="team-item droppable-item ui-widget-content">
             aaa
         </div>
     </div>
 </div>
 
+<div class="find-contents">
+    <div class="user-group">
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+    </div>
+
+    <div class="user-group">
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+    </div>
+
+
+    <div class="user-group">
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+        <div class="user-item draggable-item ui-widget-content">
+            aaa
+        </div>
+    </div>
+
+</div>
+
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/javascripts/find.js"></script>
 </body>
