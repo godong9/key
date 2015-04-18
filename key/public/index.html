@@ -17,7 +17,8 @@
 
     <div class="main-contents">
         <div class="main-logo">
-            <img src="/images/main_logo.png" align="center">
+            <img src="/images/logo.png" class="logo-image" align="center">
+            <img src="/images/key.png" class="logo-key" align="center">
         </div>
         <div class="main-text">
             <img src="/images/main_text.png" align="center">
@@ -26,17 +27,21 @@
             <div class="login-box">
                 <input type="text" class="login-box-size login-id">
                 <input type="text" class="login-box-size login-pw">
-                <input type="button" class="login-box-size login-btn">
+                <div class="login-box-size">
+                    <input id="login_btn" type="button" class="login-btn">
+                    <input id="signup_btn" type="button" class="signup-btn">
+                </div>
             </div>
             <div class="login-box">
-                <img src="/images/btn_kakao.png" class="login-box-size cursor-pointer">
-                <img src="/images/btn_facebook.png" class="login-box-size cursor-pointer">
-                <img src="/images/btn_linkedin.png" class="login-box-size cursor-pointer">
+                <img id="kakao_login_btn" src="/images/btn_kakao.png" class="login-box-size cursor-pointer">
+                <img id="facebook_login_btn" src="/images/btn_facebook.png" class="login-box-size cursor-pointer">
+                <img id="linked_login_btn" src="/images/btn_linkedin.png" class="login-box-size cursor-pointer">
             </div>
         </div>
+        <audio id="open_key_sound" src="open.wav"> </audio>
     </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/javascripts/index.js"></script>
 </body>
